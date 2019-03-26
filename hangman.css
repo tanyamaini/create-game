@@ -1,0 +1,79 @@
+canvas {
+  display: block;
+  margin: auto;
+  border: 0.1em solid black;
+  position: relative;
+  top: 300px;
+}
+
+button {
+  width: 50px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5.5px;
+  color: #636e72;
+  background: #f1f2f6;
+  border: none;
+  box-shadow: 0 5px #60a3bc;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 20px;
+  border-radius: 6px;
+  background:#eb4d4b;
+}
+
+.spec_button {
+  width: 100px;
+  position: relative;
+
+}
+/* .spec_buttons_frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.spec_buttons_frame:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px #60a3bc;
+}
+
+.buttons_frame1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.buttons_frame1:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px #60a3bc;
+}
+
+.buttons_frame2 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.buttons_frame2:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px #60a3bc;
+} */
