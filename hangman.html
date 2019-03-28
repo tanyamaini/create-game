@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="hangman.css"/>
+  <script type="text/javascript" src="hangman.js"></script>
+</head>
+<body>
+  <h1>Hangman</h1>
+  <h4>By: Tanya Maini & Celson Gutkowski</h4>
+
+  <div class="spec_buttons_frame">
+    <input type="button" onClick="startGame()" id="start" class="spec_button" value="Start Game">
+    <input type="button" onClick="location.href=location.href" class="spec_button" value="Abort!" id="restart">
+    <table>
+      <tr>
+        <td><button type="button" onclick="guess('a')" id= "a" disabled>a</button></td>
+        <td><button type="button" onclick="guess('b')" id= "b" disabled>b</button></td>
+        <td><button type="button" onclick="guess('c')" id= "c" disabled>c</button></td>
+        <td><button type="button" onclick="guess('d')" id= "d" disabled>d</button></td>
+        <td><button type="button" onclick="guess('e')" id="e" disabled>e</button></td>
+        <td><button type="button" onclick="guess('f')" id="f" disabled>f</button></td>
+        <td><button type="button" onclick="guess('g')" id="g" disabled>g</button></td>
+        <td><button type="button" onclick="guess('h')" id="h" disabled>h</button></td>
+        <td><button type="button" onclick="guess('i')" id="i" disabled>i</button></td>
+        <td><button type="button" onclick="guess('j')" id="j" disabled>j</button></td>
+        <td><button type="button" onclick="guess('k')" id="k" disabled>k</button></td>
+        <td><button type="button" onclick="guess('l')" id="l" disabled>l</button></td>
+        <td><button type="button" onclick="guess('m')" id="m" disabled>m</button></td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td><button type="button" onclick="guess('n')" id="n" disabled>n</button></td>
+        <td><button type="button" onclick="guess('o')" id="o" disabled>o</button></td>
+        <td><button type="button" onclick="guess('p')" id="p" disabled>p</button></td>
+        <td><button type="button" onclick="guess('q')" id="q" disabled>q</button></td>
+        <td><button type="button" onclick="guess('r')" id="r" disabled>r</button></td>
+        <td><button type="button" onclick="guess('s')" id="s" disabled>s</button></td>
+        <td><button type="button" onclick="guess('t')" id="t" disabled>t</button></td>
+        <td><button type="button" onclick="guess('u')" id="u" disabled>u</button></td>
+        <td><button type="button" onclick="guess('v')" id="v" disabled>v</button></td>
+        <td><button type="button" onclick="guess('w')" id="w" disabled>w</button></td>
+        <td><button type="button" onclick="guess('x')" id="x" disabled>x</button></td>
+        <td><button type="button" onclick="guess('y')" id="y" disabled>y</button></td>
+        <td><button type="button" onclick="guess('z')" id="z" disabled>z</button></td>
+      </tr>
+    </table>
+  </div>
+  <p><canvas width="1024px" height="128px" id="canvas1"></canvas></p>
+  <p><canvas width="500px" height="800px" id="canvas2"></canvas></p>
+</br>
+
+  </body>
+</html>
